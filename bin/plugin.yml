@@ -1,0 +1,17 @@
+ name: NSHC
+ version: 1.0
+ description: NSHC
+ author: xMailrage
+ main: com.xmailrage.net.MainClass
+ commands:
+   NSHC:
+      description: The NSHC command!
+   Team:
+      description: The Team command!
+   Revive:
+      description: The Revive command!
+   event:
+      description: The event command!
+
+
+

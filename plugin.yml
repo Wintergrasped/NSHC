@@ -1,0 +1,35 @@
+ name: NSHC
+ version: 1.0
+ description: NSHC
+ author: xMailrage
+ main: com.xmailrage.net.MainClass
+ commands:
+   NSHC:
+      description: The NSHC command!
+   Team:
+      description: The Team command!
+   Revive:
+      description: The Revive command!
+   Event:
+      description: The Event command!
+ permissions:
+   donator.*:
+     description: Gives access to all Donator commands
+     children:
+       donator.team: true
+   donator.team:
+     description: Gives access to use /team
+     default: op
+   nshc.event:
+     description: Gives access to use /team
+     default: op
+   nshc.event.zombie:
+     description: Gives access to use /team
+     default: op
+   nshc.event.skeletal:
+     description: Gives access to use /team
+     default: op
+   nshc.event.wwa:
+     description: Gives access to use /team
+     default: op
+
